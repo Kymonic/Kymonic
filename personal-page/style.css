@@ -1,8 +1,17 @@
 @font-face {
-    font-family: lemon_milkbold;
-    src: url(lemonmilk-bold-webfont.woff);
-  }
+    font-family: 'Lemon/Milk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Bold'), url('LemonMilkbolditalic.woff') format('woff');
+    }
   
+    @font-face {
+        font-family: 'Lemon/Milk Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Lemon/Milk Regular'), url('LemonMilk.woff') format('woff');
+        }
+
   @font-face {
     font-family: basis;
     src: url(basis33.regular.ttf);
@@ -15,7 +24,7 @@
   h1 {
     color: #921a82;
     text-align: center;
-    font-family: Lemon Milk;
+    font-family: Lemon/Milk Bold;
     font-size: 120px;
   }
   
@@ -30,14 +39,14 @@
   }
   
   #Insta {
-    text-align: left;
+    text-align: center;
   }
   
   .Insta button {
-    font-family: Nikk;
+    font-family: Lemon/Milk Regular;
     color: #DDE1E4;
     margin: 20px;
-    font-weight: Bold;
+    font-weight: regular;
     width: 300px;
     height: 80px;
     background-color: #161D23;
@@ -57,12 +66,12 @@
   }
   
   .Portfolio button {
-    font-family: Nikk;
+    font-family: Lemon/Milk Regular;
     color: #DDE1E4;
     margin: 20px;
     width: 300px;
     height: 80px;
-    font-weight: bold;
+    font-weight: regular;
     background-color: #161D23;
     border: 8px solid #DDE1E4;
     border-radius: 20px;
@@ -76,14 +85,14 @@
   }
   
   #NFP {
-    text-align: right;
+    text-align: center;
   }
   
   .NFP button {
-    font-family: Nikk;
+    font-family: Lemon/Milk Regular;
     color: #DDE1E4;
     margin: 20px;
-    font-weight: bold;
+    font-weight: regular;
     width: 300px;
     height: 80px;
     background-color: #161D23;
