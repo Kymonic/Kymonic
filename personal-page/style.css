@@ -1,115 +1,104 @@
+@import url("file:///F|/School Stuff/Graphic Design/Design for the Web/Personal Page/style.css");
 @font-face {
-    font-family: 'Lemon/Milk Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Lemon/Milk Bold'), url('LemonMilkbolditalic.woff') format('woff');
-    }
-  
-    @font-face {
-        font-family: 'Lemon/Milk Regular';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Lemon/Milk Regular'), url('LemonMilk.woff') format('woff');
-        }
+  font-family: Nikk;
+  src: url(NikkyouSans-B6aV.ttf);
+}
 
-  @font-face {
-    font-family: basis;
-    src: url(basis33.regular.ttf);
-  }
-  
-  body {
-    background-color: #000000;
-  }
-  
-  h1 {
-    color: #921a82;
-    text-align: center;
-    font-family: Lemon/Milk Bold;
-    font-size: 120px;
-  }
-  
-  h2 {
-    color: #DDE1E4;
-    text-align: center;
-    font-family: basis;
-    font-size: 50px;
-  }
-  
-  #gif {
-  }
-  
-  #Insta {
-    text-align: center;
-  }
-  
-  .Insta button {
-    font-family: Lemon/Milk Regular;
-    color: #DDE1E4;
-    margin: 20px;
-    font-weight: regular;
-    width: 300px;
-    height: 80px;
-    background-color: #161D23;
-    border: 8px solid #DDE1E4;
-    border-radius: 20px;
-    padding: 10px 40px;
-    display: inline-block;
-    font-size: 25px;
-  }
-  
-  #Insta :hover {
-    color: #921a82;
-  }
-  
-  #Portfolio {
-    text-align: center;
-  }
-  
-  .Portfolio button {
-    font-family: Lemon/Milk Regular;
-    color: #DDE1E4;
-    margin: 20px;
-    width: 300px;
-    height: 80px;
-    font-weight: regular;
-    background-color: #161D23;
-    border: 8px solid #DDE1E4;
-    border-radius: 20px;
-    padding: 10px 40px;
-    display: inline-block;
-    font-size: 25px;
-  }
-  
-  #Portfolio :hover {
-    color: #921a82;
-  }
-  
-  #NFP {
-    text-align: center;
-  }
-  
-  .NFP button {
-    font-family: Lemon/Milk Regular;
-    color: #DDE1E4;
-    margin: 20px;
-    font-weight: regular;
-    width: 300px;
-    height: 80px;
-    background-color: #161D23;
-    border: 8px solid #DDE1E4;
-    border-radius: 20px;
-    padding: 10px 40px;
-    display: inline-block;
-    font-size: 25px;
-  }
-  
-  #NFP :hover {
-    color: #921a82;
-  }
-  
-  p {
-    margin-top: 80px;
-    font-family: Verdana;
-    color: #8DA8BD;
-    font-size: 15px;
-  }
+@font-face {
+  font-family: basis;
+  src: url(basis33.regular.ttf);
+}
+
+body {
+  background-color: #191919;
+}
+
+h1 {
+  color: #A020F0;
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-size: 120px;
+}
+
+h2 {
+  color: #DDE1E4;
+  text-align: center;
+  font-family: impact;
+  font-size: 50px;
+}
+
+#Insta {
+  text-align: center;
+}
+
+.Insta button {
+  font-family: 'Righteous', cursive;
+  color: #DDE1E4;
+  margin: 20px;
+  font-weight: Bold;
+  width: 300px;
+  height: 80px;
+  background-color: #0E050F;
+  border: 8px solid #341948;
+  border-radius: 20px;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+#Insta :hover {
+  color: #A020F0;
+}
+
+#Pinterest {
+  text-align: center;
+}
+
+.Pinterest button {
+  font-family: 'Righteous', cursive;
+  color: #DDE1E4;
+  margin: 20px;
+  width: 300px;
+  height: 80px;
+  font-weight: bold;
+  background-color: #0E050F;
+  border: 8px solid #341948;
+  border-radius: 20px;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+#Pinterest :hover {
+  color: #A020F0;
+}
+
+#NFP {
+  text-align: center;
+}
+
+.NFP button {
+  font-family: 'Righteous', cursive;
+  color: #DDE1E4;
+  margin: 20px;
+  font-weight: bold;
+  width: 300px;
+  height: 80px;
+  background-color: #0E050F;
+  border: 8px solid #341948;
+  border-radius: 20px;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+#NFP :hover {
+  color: #A020F0;
+}
+
+p {
+  margin-top: 80px;
+  font-family: Verdana;
+  color: #C197D2;
+  font-size: 15px;
+}
