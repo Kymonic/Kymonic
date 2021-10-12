@@ -1,0 +1,52 @@
+body {
+	background-image: url("simple.jpg");
+	background-position: center;
+}
+
+h1{
+	font-family: 'Courier New', monospace;
+	color: #6D7A9C;
+	position: relative;
+	display: inline-block;
+	margin: 5px 650px;
+	font-size: 75px;
+	text-shadow: 2px 3px black;
+	
+	
+	}
+
+p{
+	font-family: 'Courier New', monospace;
+	font-size: 75px;
+	margin: 5px 650px;
+	color: #0E050F;
+	color: #6D7A9C;
+	text-shadow: 2px 3px black;
+	
+	
+	
+	
+	
+}
+ button{
+  font-family: 'Courier New', monospace;
+  color: #DDE1E4;
+  margin: 20px 650px;
+  font-weight: bold;
+  width: 300px;
+  height: 80px;
+  background-color: #0E050F;
+  border: 8px solid #341948;
+  border-radius: 20px;
+  padding: 10px 40px;
+  display: inline-block;
+  font-size: 25px;
+	
+}
+h2{
+	font-size: 35px;
+	margin: 5px 650px;
+	color: #6D7A9C;
+	text-shadow: 2px 3px black;
+}
+
